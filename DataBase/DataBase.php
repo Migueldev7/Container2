@@ -24,7 +24,6 @@ public function execute($sql){
     $this->close();
     return $resultArr;
 
-    ///ijiasbfuaobfaaa
 }
 
 }
