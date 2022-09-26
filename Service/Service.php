@@ -14,9 +14,9 @@ class Service
         $this->db = new DataBase();
     }
 
-    public function registerContainer($id, $name, $number, $status, $category)
+    public function registerContainer($name, $number, $status, $category)
     {
-        $this->db->execute("INSERT INTO cliente (id, name, number, status, category) VALUES ($id , $name, $number , $status , $category");
+        $this->db->execute("INSERT INTO cliente (id, name, number, status, category) VALUES ($name, $number , $status , $category");
     }
 
     public function Delete($id)

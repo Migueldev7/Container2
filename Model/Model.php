@@ -14,7 +14,7 @@ $service = new Service();
 
 if ($number == "" || $number == null) {
     echo "Valores não podem ser nulos";
-} else if ($telefone == "" || $telefone == null) {
+} else if ($categoria == "" || $categoria == null) {
     echo "Valores não podem ser nulos";
 } else {
     $service->registerContainer($name, $number, $status, $categoria);
