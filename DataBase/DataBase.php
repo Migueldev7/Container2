@@ -5,7 +5,7 @@ class DataBase
 
     private function connect()
     {
-        $this->conn = new mysqli("localhost", "root", "", "container");
+        $this->conn = new mysqli("localhost:8889", "teste", "admin", "container");
     }
 
     private function close()

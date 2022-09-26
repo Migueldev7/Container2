@@ -1,15 +1,13 @@
 <?php
+include('DataBase/DataBase.php');
+echo ('opa');
+die;
 
-
-
-
-require("DataBase/DataBase.php");
 
 $name = $_REQUEST['name'];
 $number = $_REQUEST['number'];
 $status = $_REQUEST['status'];
 $categoria = $_REQUEST['categoria'];
-
 $service = new Service();
 
 if ($number == "" || $number == null) {

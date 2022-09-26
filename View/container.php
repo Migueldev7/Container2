@@ -10,7 +10,7 @@
 
 <body>
     <h2>Insira as Informções para cadastrar seu Container</h2>
-    <form action="/Model/Model.php" method="POST">
+    <form action="moviment.php" method="POST">
         <input type="text" placeholder="Nome" name="name"><br><br>
         <input type="text" placeholder="Numero do Container" name="number"><br><br>
         <input type="text" placeholder="Status" name="status"><br><br>
